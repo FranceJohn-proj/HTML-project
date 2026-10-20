@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(36, 25, 46); 
+    color: white;
+    margin: 0;
+    justify-content: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+section{
+    padding: 50px 10%;
+    text-align: center;
+}
+ 
+nav{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(61, 47, 73);
+}
+h1{
+    padding: 10px;
+    text-shadow: 2px 3px 5px black;
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 3px 5px black;
+}
+
+nav a:hover{
+    color: skyblue;
+}
+
+button{
+    background-color: skyblue;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+.home img{
+    object-fit: cover;
+    height: 190px;
+    width: 220px;
+    border-radius: 50%;
+    border: solid skyblue;
+}
+
+.home{
+    margin:20px;
+}
+
+.skbox p:hover{
+    cursor: pointer;
+    color: skyblue;
+    border: 1px solid skyblue;
+}
+
+.skbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap:wrap ;
+}
+
+.skbox p{
+    border: solid black;
+    background-color: rgb(61, 127, 153);
+    width: 200px;
+    padding: 50px;
+    border-radius:20% 20px;
+}
+#About, #Project{
+     background-color: rgb(61, 47, 73);
+}
+
+.pbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    background-color: rgb(61, 127, 153);
+    padding: 10px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card:hover{
+    color: skyblue;
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+
+#Contact a{
+    color: white;
+    text-decoration: none;
+}
+
+#Contact a:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+input, textarea{
+    background-color: rgb(36, 25, 46); 
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+textarea{
+    height: 100px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(61, 127, 153);
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    .home img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .skbox {
+        gap: 10px;
+    }
+
+    .skbox p {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .pbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, textarea {
+        padding: 12px;
+        max-width: 100%;
+    }
+
+    button {
+        padding: 15px;
+    }
+}
