@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <nav>
+        <h1>My Portfolio</h1>
+        <a href="#home">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#Skills">My Skills</a>
+        <a href="#Project">My Projects</a>
+        <a href="#Contact">Contact</a>
+    </nav>
 
+    
+    <section id="home" class="home">
+        
+    <img src="Screenshot 2026-10-20 005029.png" alt="home image">
+     <h2>John France M. Eugenio</h2>
+    <p>
+        Im a college student studying about programming and technologies. 
+    </p>
+    
+    <p><b>Quote:</b>"Konting bato, konting simento. MUNOMENTO!!"<b>- Dwight Ramos</b></p>
+    <button onclick="welcome()"> GET TO KNOW ME</button>
+    <p id="welcome"></p>
+    </section>
+
+    <section id="About">
+        <h3>ABOUT ME</h3>
+        <p>
+                I'm a 2nd year college student, I'm a student studying programming and
+                i enjoy learning new programming language's and 
+                i want to be a developer in the near future. 
+        </p>
+
+        <p><b>Course:</b>BSIT</p>
+        <p><b>School:</b> Datamex College of Saint Adeline - Fairview</p>
+        <p><b>Hobbies:</b>Gaming, Sports, and Programming</p>
+        <p><b>Interest:</b>Sports, Making money, and Gaming</p>
+    </section>
+    
+    <section id="Skills">
+        <h3>MY SKILLS</h3>
+        <div class="skbox">
+            <p>HTML</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>Python</p>
+            <p>Oracle</p>
+        </div>       
+    </section>
+
+    <section id="Project">
+        <h3>MY PROJECTS</h3>
+        <div class="pbox">
+            
+            <div class="card">
+                <h3>LOGIN FORM</h3>
+                <img src="Screenshot 2026-10-18 161748.png" alt="LOGIN">
+                <p><b>Description:</b>A simple login form.</p>
+                <p><b>Technologies:</b>HTML and CSS</p>
+            </div>
+
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <img src="Screenshot 2026-10-18 162851.png" alt="PORTFOLIO">
+                <p><b>Description:</b>A website that shows about me and my Interest.</p>
+                <p><b>Technologies:</b>HTML, CSS, and JavaScript</p>
+            </div>
+
+            <div class="card">
+                <h3>MEAL PLAN SYSTEM</h3>
+                <img src="Screenshot 2026-10-18 161929.png" alt="MEAL PLANNER">
+                <p><b>Description:</b>A simple meal planner made using python.</p>
+                <p><b>Technologies:</b>Python</p>
+            </div>            
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h3>CONTACT</h3>
+        
+        <p><b>FACEBOOK:</b>
+            <a href="https://www.facebook.com/johnfrance.maquincioeugenio">
+                https://www.facebook.com/johnfrance.maquincioeugenio
+        </a>
+    </p>
+    <p>
+        <b>GitHub:</b>
+        <a href="https://github.com/FranceJohn-proj?tab=repositories">
+                https://github.com/FranceJohn-proj?tab=repositories
+        </a>
+    </p>
+    <form id="Contact">
+        <input type="text" id="name" placeholder="Enter your name:" required>
+        <input type="email" placeholder="Enter your email" required>
+        <textarea placeholder="Enter your meassage:" required></textarea>
+        <button type="submit">SUBMIT</button>
+    </form>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> John France M. Eugenio| Personal Portfolio</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
